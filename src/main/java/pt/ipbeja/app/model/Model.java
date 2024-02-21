@@ -1,5 +1,6 @@
 package pt.ipbeja.app.model;
 
+
 public class Model {
 
     private final String name;
@@ -12,4 +13,6 @@ public class Model {
     public String sayHello() {
         return String.format("Hello, %s!", name);
     }
+
 }
+
